@@ -1,3 +1,4 @@
+print("--- Basic Calculator ---")
 num1 = float(input("Enter the first number: "))
 operation = input("Enter operation (+, -, *, /): ").strip()
 num2 = float(input("Enter the second number: "))
