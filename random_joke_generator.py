@@ -1,9 +1,6 @@
 import random
 
 def get_random_joke():
-    """
-    Returns a random programming or Python joke from a predefined list.
-    """
     jokes = [
         "Why do programmers prefer dark mode? Because light attracts bugs!",
         "There are 10 types of people in the world: those who understand binary, and those who don't.",
@@ -27,11 +24,10 @@ def get_random_joke():
         "Why was the computer cold? It left its Windows open!"
     ]
     
-    # Use random.choice to select a random element directly from the list
     return random.choice(jokes)
 
-# Main part of the script
+
 if __name__ == "__main__":
-    print("🐍 Welcome to the Python Joke Dispenser! 💻\n")
+    print("Welcome to the Python Joke Dispenser! 💻\n")
     print(get_random_joke())
     print("\n--- End of Joke ---")
