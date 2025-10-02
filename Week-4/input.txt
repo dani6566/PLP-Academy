@@ -1,1 +1,5 @@
-
+PLP Academy is part of the Power Learn Project, focused on tech education across Africa.
+It offers free, hands-on courses in software development, AI, blockchain, and more.
+The goal is to train 1 million African youth in digital skills to boost innovation.
+Programs are led by experts and include real-world projects and soft skills training.
+Learners can access scholarships and join a growing community of future tech leaders
