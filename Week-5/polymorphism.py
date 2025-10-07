@@ -12,7 +12,7 @@ class Boat:
     #Class for a Boat
     def move(self):
         return "Sailing smoothly..."
-
+    
 
 if __name__ == "__main__":
     # Create a list containing different objects
