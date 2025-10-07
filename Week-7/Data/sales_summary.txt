@@ -1,0 +1,10 @@
+SALES SUMMARY REPORT
+----------------------------------------
+1. Total Revenue: $23,950.00
+2. Best-Selling Product:
+   - Product: Mouse
+   - Total Quantity Sold: 50 units
+3. Highest Sales Day:
+   - Date: 2024-10-04
+   - Revenue: $10,300.00
+----------------------------------------
