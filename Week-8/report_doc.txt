@@ -1,0 +1,35 @@
+CORD-19 Metadata Analysis Report
+Dataset Overview
+	• Total records: 1,056,660 entries
+	• Columns: 19
+	• Data types: 17 object, 2 float64
+	• Time span: Publications range from 1856 to 2024, with a strong concentration in recent years.
+Data Quality Insights
+	• Several columns have substantial missing values:
+	   o mag_id is completely empty.
+	   o arxiv_id, pmc_json_files, pdf_json_files, sha, and pmcid have over 60% missing.
+	   o abstract is missing in ~22% of entries.
+	   o Core metadata like title, publish_time, authors, and journal are mostly complete, making them reliable for analysis.
+	• publish_time was successfully converted to datetime format, enabling time-based analysis.
+Publication Trends
+	• 2020 marks a dramatic surge in COVID-19-related publications, with over 160,000 papers.
+	• Prior to 2020, annual publication counts were below 20,000, reflecting the pandemic’s impact on global research output.
+	• The peak years for publication are 2020–2021, aligning with the initial outbreak and global response.
+Top Journals
+	• PLOS ONE leads in publication volume, indicating its role as a major open-access outlet for COVID-19 research.
+	• Other prominent journals include:
+	   o bioRxiv (preprint server)
+	   o International Journal of Environmental Research and Public Health
+	   o BMJ, The Lancet, and Nature also appear frequently, showcasing a mix of clinical, public health, and general science coverage.
+Source Distribution
+	• The most common source is WHO, reflecting its central role in coordinating pandemic data.
+	• Medline: PMC ranks second, followed by Elsevier, bioRxiv, and Springer Nature.
+	• This distribution highlights the diversity of data sources, from preprints to peer-reviewed journals and global health organizations.
+Abstract Analysis
+	• Average abstract length: 165 words
+	• Some abstracts exceed 18,000 words, suggesting inclusion of full-text content in some cases.
+	• Abstracts provide rich material for future NLP tasks like topic modeling or sentiment analysis.
+Key Insights
+	• The dataset reflects a massive mobilization of scientific effort in response to COVID-19, especially in 2020.
+	• Open-access platforms and preprint servers played a crucial role in rapid dissemination.
+	• Despite missing data in some technical fields (e.g., mag_id, arxiv_id), the dataset is robust for bibliometric and temporal analysis.
